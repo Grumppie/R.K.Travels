@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>R.K.Travels</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <!-- logo -->
+        <div class="logo-container">
+            <a href="">
+                <h1 class="logo">R.K.<span>Travels</span></h1>
+            </a>
+        </div>
+        <!-- logo End -->
+
+        <div class="menu-btn">
+            <i id="bars" class="fas fa-bars"></i>
+            <i id="cross" class="fas fa-times"></i>
+        </div>
+
+        <div class="navigation">
+            <!-- Nav Links -->
+            <div class="nav-links">
+
+                <a href="#Home">Home</a>
+                <a href="#BookNow">Book Now</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
+            </div>
+            <!-- Nav Links End -->
+        </div>
+
+    </nav>
+    <!-- navbar End -->
+
+    <!-- Home -->
+    <section class="home">
+        <div class="slider">
+            <video class="videos active" src="./Assets/1.mp4" autoplay muted loop></video>
+            <video class="videos" src="./Assets/2.mp4" autoplay muted loop></video>
+            <video class="videos" src="./Assets/3.mp4" autoplay muted loop></video>
+            <video class="videos" src="./Assets/4.mp4" autoplay muted loop></video>
+            <video class="videos" src="./Assets/5.mp4" autoplay muted loop></video>
+        </div>
+
+
+        <div class="content-container">
+            <div class="home-content active">
+                <h1>Island <br> <span>Trip</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur aperiam
+                    quasi quis
+                    velit
+                <div class="book-now-btn">
+                    <a href="#bookNow">Book Now</a>
+                </div>
+            </div>
+            <div class="home-content">
+                <h1>Traking <br> <span>Trip</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur aperiam
+                    quasi quis
+                    velit
+                <div class="book-now-btn">
+                    <a href="#bookNow">Book Now</a>
+                </div>
+            </div>
+            <div class="home-content">
+                <h1>Offroad<br> <span>Trip</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur aperiam
+                    quasi quis
+                    velit
+                <div class="book-now-btn">
+                    <a href="#bookNow">Book Now</a>
+                </div>
+            </div>
+            <div class="home-content">
+                <h1>Tropical <br> <span>Trip</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur aperiam
+                    quasi quis
+                    velit
+                <div class="book-now-btn">
+                    <a href="#bookNow">Book Now</a>
+                </div>
+            </div>
+            <div class="home-content">
+                <h1>Personal <br> <span>Trip</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur aperiam
+                    quasi quis
+                    velit
+                <div class="book-now-btn">
+                    <a href="#bookNow">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="socials">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="slider-icons">
+            <div class="slide-icon active" onclick="change(0)"></div>
+            <div class="slide-icon" onclick="change(1)"></div>
+            <div class="slide-icon" onclick="change(2)"></div>
+            <div class="slide-icon" onclick="change(3)"></div>
+            <div class="slide-icon" onclick="change(4)"></div>
+        </div>
+
+    </section>
+
+
+
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
